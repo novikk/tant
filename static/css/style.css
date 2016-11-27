@@ -1,0 +1,179 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    font-family: 'Heebo', sans-serif;
+    color: #ADADAD;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.top_banner {
+  width: 100%;
+}
+
+.top_banner > img {
+  width: 100%;
+}
+
+/*     INDEX     */
+.index {
+  background: url(/static/img/Inicio/Background.png) no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.welcome {
+  padding-top: 20%;
+  width: 100%;
+  text-align: center;
+}
+
+.index_btn {
+  padding-top: 130%;
+  width: 100%;
+  text-align: center;
+}
+
+/*     FORM     */
+.form {
+  height: 100%;
+  width: 100%;
+}
+
+form {
+  color: #d7d7d7;
+  padding: 10%;
+  margin-top: 1%;
+}
+
+input[type=text] {
+  background: #f1f0ee;
+  padding: 3%;
+  border: 0;
+  width: 100%;
+  border-radius: 10px;
+  color: #7292aa;
+  font-size: 50px;
+}
+
+.form-btn {
+  width: 100%;
+  text-align: center;
+}
+
+/*     LOGINS     */
+.logins {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.logins_msg {
+  padding-top: 15%;
+  width: 100%;
+}
+
+.logins_btn1 {
+  padding-top: 15%;
+  width: 100%;
+}
+
+.logins_btn2 {
+  padding-top: 5%;
+  width: 100%;
+  font-size: 30px;
+}
+
+.logins_magic {
+  padding-top: 15%;
+  width: 100%;
+}
+
+/*     RECOMMENDATIONS     */
+.recommendations {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.grid {
+  width: 100%;
+  padding: 5%;
+  padding-top: 8%;
+}
+
+.grid_item_left {
+  width: 49%;
+  margin-right: 2%;
+  float: left;
+}
+
+.grid_item_left img{
+  width: 100%;
+}
+
+.grid_item_right {
+  width: 49%;
+  float: right;
+}
+
+.grid_item_right img {
+  width: 100%;
+}
+
+.recom_btn {
+  padding-top: 110%;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+.results {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.results .grid_item_left a {
+  text-align: center;
+}
+
+.outer
+{
+    width:100%;
+    padding-left: 1.5%;
+    margin-bottom: 5%;
+}
+
+.inner
+{
+    display: inline-block;
+    font-size: 45px;
+    color: #aaa;
+}
+
+input[type='radio'] { 
+  transform: scale(3); 
+  vertical-align: middle;
+}
